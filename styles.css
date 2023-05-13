@@ -56,6 +56,11 @@ body {
     background-size:cover;
 }
 
+.banner-inner {
+    align-items:center;
+    text-align:center;
+і}
+
 .header-item {
     color:white;
     width:18px;
@@ -79,13 +84,13 @@ body {
 .btn {
     color:#e9e9e9;
     width:fit-content;
-    height:48px;
+    height:40px;
     padding:10px 30px 10px 40px;
     border-radius:7px;
     align-items:center;
     margin: 0 auto;
     justify-content:center;
-    font-size:10px;
+    font-size:20px;
     display:flex;
     margin-right: 6 px;
 }
@@ -98,6 +103,7 @@ body {
     display: flex;
     padding: 40px 0 20px 0;
     gap:70px;
+    padding:50px;
 }
 
 .services-item i {
@@ -164,6 +170,10 @@ body {
     font-size:20px;
 }
 
+.business {
+    margin-top:50px;
+}
+
 .btn-second {
     margin:0;
     border:none;
@@ -184,11 +194,11 @@ body {
 }
 
 .business-list li{
-    width:25%;
+    width:calc(25% - 6px);
 }
 
 .business-list img {
-    width:calc(25% - 6px);
+    width:100%;
 }
 
 .business-title {
@@ -221,6 +231,10 @@ color: #333333;
   text-align: center;
   color: #333333;-
   padding-bottom: 35px;
+}
+
+.business-text {
+    padding-bottom:20px;
 }
 
 .blog-inner-text h2 {
@@ -266,6 +280,12 @@ color: #333333;
     padding-bottom:13px;
 }
 
+.professional-list p {
+    font-weight:400;
+    font-size:10px;
+    color:#333333;
+}
+
 .symbol {
     position:absolute;
     top:50%;
@@ -287,4 +307,66 @@ color: #333333;
 
 .professional-image-container{
     position:relative;
+}
+
+.professional-image-container:hover .symbol{
+    opacity:1;
+    visibility:visible;
+}
+
+.callback {
+    padding-top:50px;
+}
+
+.callback-inner {
+    display:flex;
+    justify-content:space-between;
+}
+
+.callback form {
+    display:flex;
+    flex-direction:column;
+    weight:50%;
+    padding:0 10px;
+    justify-content:center;
+}
+
+.callback form input {
+    outline:none;
+    padding:5px;
+
+}
+
+.btn-form {
+    background:#28A745;
+    margin:0;
+}
+
+.img-container {
+    width:50%;
+    height:auto;
+}
+
+.reg-img {
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.copyright-inner {
+    height:110px;
+    background:#333333;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+.copyright-inner p {
+    font-weight:400;
+    font-size:10px;
+    text-align:center;
+    color:#FFFFFF;
 }
